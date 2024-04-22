@@ -1,0 +1,14 @@
+Django==3.2.5
+django-widget-tweaks==1.4.8
+python-telegram-bot==13.7
+transformers==4.10.2
+requests==2.26.0
+
+This file specifies the dependencies required for the project, including:
+
+Django==3.2.5: The Django framework, version 3.2.5.
+transformers==4.10.2: The Transformers library, version 4.10.2, which is used for the RAG model and language model.
+requests==2.26.0: The Requests library, version 2.26.0, which is used for making HTTP requests to the World Bank API.
+You can install these dependencies using pip:
+
+pip install -r requirements.txt
