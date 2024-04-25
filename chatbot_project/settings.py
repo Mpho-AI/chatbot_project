@@ -1,3 +1,5 @@
+# Description: This file contains the settings for the Django project. It contains the configuration for the database, static files, and other settings.
+# chatbot_project/settings.py
 """
 Django settings for chatbot_project project.
 
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "chatbot_project",
 ]
 
 MIDDLEWARE = [

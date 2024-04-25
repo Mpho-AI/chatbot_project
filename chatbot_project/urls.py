@@ -1,3 +1,5 @@
+# my_chatbot_app/urls.py
+
 """chatbot_project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -17,5 +19,5 @@ from django.urls import path
 from. import views
 
 urlpatterns = [
-    path('api/response/', views.chatbot_response, name='chatbot_response'),
+    path('api/response/', views.chat, name='chat'),
 ]
